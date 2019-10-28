@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    /* remove dots */
+    list-style-type: none;
+    /* make elements inline */
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+
+}
+
+.nav-link{
+    border: 1px solid;
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background: red;
+    color: white;
+}
+
+.nav-item{
+    
+}
+
+.intro{
+    display: flex;
+    padding: 30px;
+}
+
+.intro-desc{
+    padding-right: 20px;
+}
+
+.intro-title{
+    margin-top: 0;
+}
+
+.article{
+    display: flex;
+    /*background-size: cover --> coverfullsize */
+    background: url("../image/banner.jpg") no-repeat #e4e4e4;
+    background-size: cover;  
+    padding: 30px;
+}
+
+.simple-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.simple-article-link{
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.simple-article-desc{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.simple-article-image{
+    width: 50%;
+    padding-right: 20px;
+}
+
+.simple-article-text{
+    width: 50%;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-item:first-child{
+    background: green;
+}
+
+.menu-item:nth-child(2){
+    background: red;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+
+        </section>
+        <!-- FORM -->
+        <form>
+            <!-- form item -->
+            <div class="form-item">
+                <label class="form-lable" for="name">Name</label>
+                <input class="form-input" type="text" name="name" id="name" />
+            </div>
+
+            <div class="form-item">
+                <label class="form-lable" for="email">Email</label>
+                <input class="form-input" type="text" name="email" id="email" placeholder="youremail@gmail.com" />
+            </div>
+
+            <!-- form item -->
+            <!-- for vs id phải giống nhau -->
+            <div class="form-item">
+                <label class="form-lable">Type of talk</label>
+                <div class="form-radio-wrapper">
+                    <input name="type-of-talk" id="main-stage" type="radio" checked />
+                    <label for="main-stage">Main-stage</label>
+                </div>
+
+                <div class="form-radio-wrapper">
+                    <input name="type-of-talk" id="workshop" type="radio" />
+                    <label for="workshop">Workshop</label>
+                </div>
+            </div>
+
+            <!-- form item -->
+            <div class="form-item">
+                <label class="form-lable">T-shirt Size</label>
+                <div class="form-select-wrapper">
+                    <select class="form-select" name="t-shirt-size" id="t-shirt-size">
+                        <option value="xs">Extra small</option>
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="xl">Extra large</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- form item -->
+            <div class="form-item">
+                <label class="form-lable">Abstract</label>
+                <textarea class="form-textarea"></textarea>
+            </div>
+
+            <!-- form item -->
+            <div class="form-item form-item--checkbox">
+                <input type="checkbox" name="available" id="available" />
+                <label class="form-lable form-lable--available" for="available">i am actually available the date of the talk</label>
+            </div>
+
+            <!-- form item -->
+            <div class="form-item">
+                <button class="form-button" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- improt file javascript -->
+    <script src="./js/nav.js"></script>
+</body>
+
+</html>

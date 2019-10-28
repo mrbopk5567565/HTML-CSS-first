@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.pokemon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article{
+    padding: 10px 15px;
+}
+
+.lizardons{
+    width: 30%;
+}
+
+.lizardon{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    margin: 10px 0;
+}
+
+.lizardon-image{
+    width: 50%;
+}
+
+.lizardon-text{
+    width: 50%;
+    padding: 10px 0;
+}
+
+.lizardon-title{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lizardon-title:hover{
+    color: blueviolet;
+}
+
+.fushigibanas{
+    width: 40%;
+    justify-content: center;
+}
+
+.fushigibanas{
+    display: flex;
+    flex-direction: column;
+    background: #7ed6df;
+    margin: 15px 0;
+}
+
+.fushigibana-title{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fushigibana-title:hover{
+    color: blueviolet;
+}
+
+.fushigibana-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fushigibana-image{
+    width: 50%;
+}
+
+.fushigibana-description{
+    width: 50%;
+}
+
+.kyurems{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kyurem-text{
+    width: 100%;
+}
+
+.kyurem-title{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

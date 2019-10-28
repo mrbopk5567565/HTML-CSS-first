@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nv{
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    position: relative;
+    
+    min-width: 200px;
+    text-align: center;
+}
+
+.nav-item:hover .nav-sub-list{
+    display: block;
+    top: 50%;
+    opacity: 1;
+}
+
+.nav-item:hover .movies-color{
+    background: #e67e22;
+}
+
+.nav-link{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    /* transition: 0.5s; */
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link-image{
+
+}
+
+.nav-sub-list{
+    position: absolute;
+    background: #e67e22;
+    width: 100%;
+    left: 0;
+    padding: 15px;
+    /* display: none; */
+    transition: 0.5s;
+    opacity: 0;
+    top: -100%;
+}
+
+.nav-sub-item{
+
+}
+
+.nav-sub-link{
+    color: white;
+}
+
+.series-anime-pokemon-color{
+    color: #3498db;
+}
+
+/* .series-anime-pokemon-background:hover .series-anime-pokemon-color{
+    color: white;
+    background: #3498db;
+} */
+
+.movies-color{
+    color: #e67e22;
+    width: 100%;
+}
+
+.movies-background:hover{
+    background: #e67e22;
+}
+
+.product-color{
+    color: #2ecc71;
+}
+
+.application-color{
+    color: #9b59b6;
+}
+
+.games-color{
+    color: #e74c3c;
+}
+
+
