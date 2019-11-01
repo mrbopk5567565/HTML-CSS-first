@@ -128,10 +128,6 @@ main{
     z-index: -9999;
 }
 
-/* main{
-    z-index: 9999;
-} */
-
 .nav-sub-item{
     text-align: center;
     padding: 5px 0;
