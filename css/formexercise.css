@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background: #ccc;
+}
+
+form{
+    padding: 30px;
+    width: 500px;
+    background: #fff;
+    margin: 40px auto;
+    border: 1px solid 999;
+    border-radius: 10px;
+}
+
+.form-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.form-lable{
+    width: 30%;
+}
+
+.form-input{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 250px;
+    width: 70%;
+}
+
+.form-radio-wrapper{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-radio{
+    margin-right: 10px;
+}
+
+.form-select-wrapper{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* padding: 5px 10px; */
+    position: relative;
+    max-width: 100%;
+}
+
+.form-select-wrapper::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-top: 8px solid red;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.form-select{
+    padding: 5px 10px;
+    width: 250px;
+    background: none;
+    border: none; 
+    width: 100%;
+}
+
+.form-textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+}
+
+.form-item--checkbox{
+    padding-left: 30%;
+}
+
+.form-item--checkbox .form-lable{
+    width: 80%;
+}
+
+.form-buttons{
+    padding-left: 30%;
+}
+
+.form-button{
+    background: #4d8fe9;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
