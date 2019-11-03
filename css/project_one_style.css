@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-header{
+    background: url(../images/banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.nav-list{
+    background: white;
+    list-style-type: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav.item{
+    
+}
+
+.nav-link{
+    color: black;
+    padding: 10px 15px;    
+}
+
+h1{
+    margin: 0;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    /* outline: none; */
+    color: white;
+}
+
+.main-header-text{
+    color: white;
+    font-size: 24px;
+    margin: 18px 0 0 0;
+    letter-spacing: 7px;
+    line-height: 35px;
+}
+
+.main-header-button{
+    background: #00cec9;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: 1px solid #00cec9;
+    margin: 48px 0 0;
+    color: white;
+    font-size: 18px;
+}
+
+/* START section-one "INTEGER PORTTITOR MOLLISAR"*/
+/* icon */
+.section-one-icon-circle{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid #636e72;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-setting-modify{
+    color: #00cec9;
+    font-size: 35px;
+}
+
+.section-one-icon-circle:hover .icon-setting-modify{
+    transition: 1s;
+    color: white;
+}
+
+.section-one-icon-circle:hover{
+    background: #00cec9;
+    transition: 1.5s;
+    border: 2px solid #00cec9;
+}
+
+.section-one-title{
+    font-size: 36px;
+    color: black;
+}
+
+.section-one-text{
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/* CLOSE section-one "INTEGER PORTTITOR MOLLISAR"*/

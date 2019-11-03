@@ -1,0 +1,43 @@
+/* canh chinh layout */
+
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 800px;
+    position: relative;
+    flex-direction: column;
+}
+
+.main-header-title{
+    width: 50%;
+    padding-top: 11em;
+    padding-left: 15%;
+}
+
+/* START section one "INTEGER PORTTITOR MOLLISAR" */
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 46px 0;
+}
+
+.section-one-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.section-one-icon-circle{
+    margin: 30px;
+}
+
+.section-one-text{
+    align-content: center;
+}
+
+/* CLOSE section one "INTEGER PORTTITOR MOLLISAR" */
