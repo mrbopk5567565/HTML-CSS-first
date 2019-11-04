@@ -1,5 +1,10 @@
 /* canh chinh layout */
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .main-header{
     display: flex;
     flex-wrap: wrap;
@@ -24,10 +29,11 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 46px 0;
+    padding: 34px 0;
 }
 
 .section-one-icon{
+    padding: 40px;
     display: flex;
     justify-content: center;
 }
@@ -37,7 +43,105 @@
 }
 
 .section-one-text{
+    padding-top: 10px;
     align-content: center;
 }
 
 /* CLOSE section one "INTEGER PORTTITOR MOLLISAR" */
+
+/* START section two */
+.section-two-article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-two-container{
+    padding: 0;
+    height: 500px;
+    width: calc(100% / 3);
+    background: center no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two-image{
+    background: center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.section-two-content{
+    background: #00cec9;
+    padding: 0 172px 0 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 3 * 2);
+}
+/* FIN section two */
+
+/* START section three */
+.section-three-article{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.section-three-container{
+    padding: 0;
+    height: 500px;
+    width: calc(100% / 3);
+    background: center no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three-image{
+    background: center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.section-three-content{
+    background: white;
+    padding: 0 172px 0 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 3 * 2);
+}
+/* FIN section three */
+
+/* START section four */
+.section-four-article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-four-container{
+    padding: 0;
+    height: 500px;
+    width: calc(100% / 3);
+    background: center no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-four-image{
+    background: center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.section-four-content{
+    background: #00cec9;
+    padding: 0 172px 0 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 3 * 2);
+}
+/* FIN section four */
