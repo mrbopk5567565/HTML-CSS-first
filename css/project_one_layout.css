@@ -68,7 +68,7 @@ img{
 .section-article-container{
     padding: 0;
     /* padding-top: 80%; */
-    height: 500px;
+    height: 400px;
     width: calc(100% / 3);
     position: relative;
     /* display: flex;
@@ -82,16 +82,103 @@ img{
     transition: 1s;
 }
 
-.section-article-image{
-    /* background: center no-repeat;
-    background-size: cover; */
-    /* width: 100%; */
-    min-width: calc(100% + 60px);
-    min-height: calc(100% + 60px);
+.section-article-container:hover .section-article-caption-circle{
+    box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    transition: 1s;
+    opacity: 1;
+    transform: scale3d(1.3, 1.3,1);
+}
+
+.section-article-container:hover .section-article-caption-title{
+    opacity: 1;
+    transition: 1s;
+}
+
+.section-article-caption{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+    text-align: right;
+    padding: 0 16px 2px 0;
+}
+
+.section-article-caption-title{
+    opacity: 0;
+    transition: 0.3s
+}
+
+.section-article-caption-circle{
+    width: 220px;
+    height: 250px;
+    border: 2px solid #16a085;
+    border-radius: 50%;
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    /* transform-origin: 50% 50%; */
+    opacity: 0;
+    transition: 0.3s
+}
+
+/* create caption for even */
+.section-article-list:nth-child(even) .section-article-image{
+    min-width: calc(100% + 100px);
+    min-height: calc(100% + 100px);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: 0.5s
+}
+
+.section-article-list:nth-child(even) .section-article-container:hover .section-article-image{
+    top: 45%;
+    /* left: 45%; */
+    transition: 1s;
+}
+
+.section-article-list:nth-child(even) .section-article-caption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 140px;
+    text-align: left;
+    padding: 0 0 2px 16px;
+}
+
+.section-article-list:nth-child(even) .section-article-caption-circle{
+    width: 220px;
+    height: 250px;
+    border: 2px solid #16a085;
+    border-radius: 50%;
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+    /* transform-origin: 50% 50%; */
+    opacity: 0;
+    transition: 0.3s
+}
+
+.section-article-list:nth-child(even) .section-article-container:hover .section-article-caption-circle{
+    box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    transition: 1s;
+    opacity: 1;
+    transform: scale3d(1.3, 1.3,1);
+}
+/* finish create caption for even */
+
+.section-article-image{
+    /* background: center no-repeat;
+    background-size: cover; */
+    /* width: 100%; */
+    min-width: calc(100% + 100px);
+    min-height: calc(100% + 100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s
 }
 
 .section-article-content{
