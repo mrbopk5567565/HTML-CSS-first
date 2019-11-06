@@ -384,3 +384,35 @@ h4.section-five-list-title{
     border-radius: 10px;
 }
 /* FIN section picture */
+
+
+/* ----------------------- */
+/*START main-footer */
+.main-footer-content{
+    padding: 40px;
+}
+.section-footer-text {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-footer-input{
+    display: flex;
+    justify-content: center;
+    width: 62%;
+    margin: 0 auto;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.main-footer-list{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-footer-list-item{
+    width: 5%;
+}
+/*FIN main-footer */

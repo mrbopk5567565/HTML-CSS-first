@@ -304,3 +304,60 @@ h3 span{
     letter-spacing: 1px;
 }
 /* FIN section picture */
+/* ----------------------- */
+/*START main-footer */
+.main-footer-content{
+    background: url(../images/banner.jpg);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.section-footer-title {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.section-footer-text {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.input--email{
+    padding: 18px 24px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* outline: none; */
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+}
+
+.button--send{
+    width: 30%;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #01a3a4;
+    transition: 0.5s;
+}
+
+.button--send:hover{
+    background: #f0932b;
+    transition: 0.5s;
+}
+
+.footer-icon-modify{
+    font-size: 20px;
+    color: white;
+}
+
+.main-footer-description{
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+}
+/*FIN main-footer */
