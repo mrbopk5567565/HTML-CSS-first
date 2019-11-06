@@ -345,3 +345,42 @@ h4.section-five-list-title{
     border-radius: 15px;
 }
 /* FIN section introduce */
+/* ---------------------------- */
+/* START section picture */
+.section-picture{
+    padding: 48px;
+    background: #dff9fb;
+}
+
+.section-picture-content{
+    text-align: center;
+}
+
+.section-picture-title{
+    margin: 0;
+    padding: 48px 15px 0 15px;
+}
+
+.section-picture-text{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 70px 80px 70px;
+}
+
+.section-picture-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-picture-list--item{
+    width: 30%;
+    margin: 10px 10px;
+}
+
+.item--image{
+    width: 100%;
+    border-radius: 10px;
+}
+/* FIN section picture */

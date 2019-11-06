@@ -284,6 +284,21 @@ h3 span{
 .linkedin{
     background: #0077b5;
 }
-
-
 /* FIN section introduce */
+/* ---------------------------- */
+/* START section picture */
+.section-picture-title {
+    font-family: sans-serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.section-picture-text {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+/* FIN section picture */
